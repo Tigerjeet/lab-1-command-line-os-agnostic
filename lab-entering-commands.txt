@@ -15,6 +15,7 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
+Documents  Music  Pictures  TigerjeetSingh  Videos
 ----------
 Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 
@@ -25,6 +26,7 @@ Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 $ ls D<TAB>
 
 What happens?  Describe it below.
+nothing happened when I pressed tab   
 ----------
 Desktop/    Documents/  Downloads/
 
@@ -33,12 +35,14 @@ Desktop/    Documents/  Downloads/
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 rdrgeerwtger yg erwy brg
+.bash_history   .bashrc         .config/        .vscode-server/ Documents/      Pictures/       Videos/         
+.bash_logout    .cache/         .profile        .wget-hsts      Music/          TigerjeetSingh/ 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: cannot access 'd': No such file or directory
 
 
 ==========
@@ -48,7 +52,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+Case_Document_7-1.doc
+Figure_7-4.pdf
 
 
 ==========
@@ -58,7 +63,7 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.  ..  Case_Document_7-1.doc  Figure_7-4.pdf
 
 
 ==========
@@ -68,7 +73,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+$ ls -a Documents
 
 
 ==========
@@ -78,7 +83,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+$ ls -1 Documents
 
 
 ==========
@@ -88,7 +93,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+It cannot accesss, no file or directory
 
 
 ==========
@@ -98,20 +103,20 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+You press the <UP> key
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
-
+$ ls -1 Documents
+$ ls -a Documents
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
